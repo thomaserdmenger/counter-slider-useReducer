@@ -57,3 +57,17 @@ input[type='range']::-webkit-slider-thumb {
   width: 1rem;
   border-radius: 100%;
 }
+
+span {
+  color: white;
+  position: absolute;
+  right: 5rem;
+  top: 1.9rem;
+}
+
+.sliderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
