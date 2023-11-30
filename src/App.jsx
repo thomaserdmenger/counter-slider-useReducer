@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styles from './App.module.css'
+import Slider from './components/Slider'
 
 const initialValue = { count: 0 }
 
@@ -38,10 +39,13 @@ export default function App() {
   return (
     <>
       <h1>{state.count}</h1>
-      <div className={styles.buttonContainer}>
-        <button onClick={handleDecrement}>-</button>
-        <button onClick={handleIncrement}>+</button>
-        <button onClick={handleReset}>0</button>
+      <div>
+        <div className={styles.buttonContainer}>
+          <button onClick={handleDecrement}>-</button>
+          <button onClick={handleIncrement}>+</button>
+          <button onClick={handleReset}>0</button>
+        </div>
+        <Slider />
       </div>
     </>
   )
