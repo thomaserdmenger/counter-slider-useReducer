@@ -1,5 +1,9 @@
 # Counter with slider to practive useReducer-Hook
 
+## Screenshot
+
+![](./src/utils/screenshot.png)
+
 ## Links
 
 - [See live site here](https://thomaserdmenger.github.io/counter-slider-useReducer)
